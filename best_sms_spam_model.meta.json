@@ -1,0 +1,29 @@
+{
+  "model_name": "Linear SVM",
+  "metrics": {
+    "accuracy": 0.9816247582205029,
+    "precision": 0.9827586206896551,
+    "recall": 0.8702290076335878,
+    "f1": 0.9230769230769231
+  },
+  "vectorizer": {
+    "type": "TfidfVectorizer",
+    "params": {
+      "lowercase": true,
+      "max_df": 0.9,
+      "min_df": 2,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "stop_words": "english",
+      "sublinear_tf": false,
+      "use_idf": true
+    }
+  },
+  "environment": {
+    "python": "3.13.1",
+    "scikit_learn": "1.7.2"
+  }
+}
