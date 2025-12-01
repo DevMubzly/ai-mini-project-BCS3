@@ -39,4 +39,4 @@ streamlit run app.py
 
 - Enter an SMS message.
 - Click Classify.
-- Output: SPAM or Not Spam with confidence (probability) or decision score.
+- Output: SPAM or Not Spam with probability & decision score.
